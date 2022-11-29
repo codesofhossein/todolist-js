@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./fonts.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Todo List</h1>
+    </header>
+
+
+    <form>
+
+        <div class="todos">
+
+            <div class="vorodi">
+
+                <p>Add your Todo : </p>
+                <div>
+                    <input type="text" class="todo-input">
+                    <button class="todo-btn" type="submit">
+                        <i class="fa-solid fa-square-plus"></i>
+                    </button>
+                </div>
+
+
+
+            </div>
+            <span class="clearAll">Clear All</span>
+            <div class="filter">
+
+                <select class="todo-filter">
+                    <option value="all">All</option>
+                    <option value="complated">Complated</option>
+                    <option value="uncomplated">Uncomplated</option>
+                </select>
+
+
+
+            </div>
+
+        </div>
+
+    </form>
+
+    <div class="container">
+
+        <ul class="todo-list"></ul>
+
+    </div>
+
+
+
+    <div class="footer">
+        <p>Created By &copy;Hossein </p>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
